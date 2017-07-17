@@ -23,8 +23,8 @@
                 <article>
                     <h1 class="entry-title"><a href="/dang-yin-yong-zhi-xiang-lin-shi-dui-xiang.html">当引用指向临时对象</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2017-07-16T00:00:00+08:00">
-                Published: 日 16 七月 2017
+        <abbr class="published" title="2017-07-18T00:00:00+08:00">
+                Published: 二 18 七月 2017
         </abbr>
 
         <address class="vcard author">
@@ -47,8 +47,8 @@
 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2017-07-16T00:00:00+08:00">
-                Published: 日 16 七月 2017
+        <abbr class="published" title="2017-07-18T00:00:00+08:00">
+                Published: 二 18 七月 2017
         </abbr>
 
         <address class="vcard author">
@@ -66,6 +66,44 @@
 <p>Pelican: <a href="http://docs.getpelican.com/en/stable/quickstart.html">pelican文档</a></p>
 <p>Markdown: <a href="www.appinn.com/markdown/#link">markdown中文文档</a></p>
                 <a class="readmore" href="/my-blog.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/zhuang-tai-tong-bu-yu-zheng-tong-bu.html" rel="bookmark"
+                           title="Permalink to 状态同步与帧同步">状态同步与帧同步</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2017-07-18T00:00:00+08:00">
+                Published: 二 18 七月 2017
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/jimmie.html">Jimmie</a>
+        </address>
+<p>In <a href="/category/blog.html">Blog</a>.</p>
+
+</footer><!-- /.post-info -->                <p>游戏同步中，大致使用的一般都是状态同步和帧同步两种，以这两种为分支不断优化变种，以适应特定的游戏。</p>
+<ol>
+<li>
+<p>状态同步
+   各种逻辑（比如技能释放命中、伤害等）先在服务器计算，然后将运算结果发送给客户端，客户端同步服务器发送来的状态变化。
+   这样的同步方式，会随着单位的增加，流量会急剧增加。可以控制数据，如只发送九屏消息，来控制流量，有时候客户端也会做一些运算
+   来减轻服务器压力。</p>
+</li>
+<li>
+<p>帧同步
+   帧同步是MOBA类和实时战斗类游戏采用的同步方式，帧同步可以使得客户端表现流畅。服务器不再同步状态，而是对于每一帧（turn），
+   客户端将自己的操作发给服务器，服务器在一帧结束后，将所收到的操作广播给各个客户端，客户端根据相应操作指令，分别模
+   拟执行逻辑操作，使用相同的随机种子，执行出完全相同的结果。
+   由于网络延迟，服务器可能在这一帧迟迟未收到客户端发送的消息，而其它客户端消息已经到达，服务器会等待最慢的那个客户端消息，
+   如果超过能容忍的上限时间，可能直接丢弃数据，或者客户端在得知消息未发送成功的时候，缓存这一次的操作，并和下一次操作一起发送。
+   服务器也可能未成功同步某个客户端的数据给其它客户端，这样服务器要缓存指令，在下一次网络好的时候，一起同步，这样就不会导致不同步。
+   帧同步无法使用浮点数来处理逻辑，由于浮点数的误差性，每台机器可能算出来的结果有差异 ...</p></li></ol>
+                <a class="readmore" href="/zhuang-tai-tong-bu-yu-zheng-tong-bu.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
                 </ol><!-- /#posts-list -->
