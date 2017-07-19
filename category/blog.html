@@ -21,10 +21,10 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="/my-blog.html">My Blog</a></h1>
+                    <h1 class="entry-title"><a href="/lockstep.html">状态同步与帧同步</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2017-07-18T00:00:00+08:00">
-                Published: 二 18 七月 2017
+        <abbr class="published" title="2017-07-19T00:00:00+08:00">
+                Published: 三 19 七月 2017
         </abbr>
 
         <address class="vcard author">
@@ -32,39 +32,7 @@
         </address>
 <p>In <a href="/category/blog.html">Blog</a>.</p>
 
-</footer><!-- /.post-info --><p>偶然间听闻同学说可以在github上写博客，听起来比较有意思,
-于是尝试一番，果然靠谱。虽然工作多年，但是一直没有写文章
-的习惯，将一些所学所想记录此处，既能分享经验，又能方便以
-后回顾，想来也别有一番乐趣。忙碌的工作之余，随便写点什么，
-也是不错的。</p>
-<p>还没弄主题，所以有点简陋，以后慢慢弄。</p>
-<p>附个安装链接: <a href="http://kwdfmzhu.github.io/2016/04/13/pelican_blog/">github blog使用指南</a></p>
-<p>Pelican: <a href="http://docs.getpelican.com/en/stable/quickstart.html">pelican文档</a></p>
-<p>Markdown: <a href="www.appinn.com/markdown/#link">markdown中文文档</a></p>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="/zhuang-tai-tong-bu-yu-zheng-tong-bu.html" rel="bookmark"
-                           title="Permalink to 状态同步与帧同步">状态同步与帧同步</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2017-07-18T00:00:00+08:00">
-                Published: 二 18 七月 2017
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="/author/jimmie.html">Jimmie</a>
-        </address>
-<p>In <a href="/category/blog.html">Blog</a>.</p>
-
-</footer><!-- /.post-info -->                <p>游戏同步中，大致使用的一般都是状态同步和帧同步两种，以这两种为分支不断优化变种，以适应特定的游戏。</p>
+</footer><!-- /.post-info --><p>游戏同步中，大致使用的一般都是状态同步和帧同步两种，以这两种为分支不断优化变种，以适应特定的游戏。</p>
 <ol>
 <li>
 <p>状态同步
@@ -80,8 +48,42 @@
    由于网络延迟，服务器可能在这一帧迟迟未收到客户端发送的消息，而其它客户端消息已经到达，服务器会等待最慢的那个客户端消息，
    如果超过能容忍的上限时间，可能直接丢弃数据，或者客户端在得知消息未发送成功的时候，缓存这一次的操作，并和下一次操作一起发送。
    服务器也可能未成功同步某个客户端的数据给其它客户端，这样服务器要缓存指令，在下一次网络好的时候，一起同步，这样就不会导致不同步。
-   帧同步无法使用浮点数来处理逻辑，由于浮点数的误差性，每台机器可能算出来的结果有差异 ...</p></li></ol>
-                <a class="readmore" href="/zhuang-tai-tong-bu-yu-zheng-tong-bu.html">read more</a>
+   帧同步无法使用浮点数来处理逻辑，由于浮点数的误差性，每台机器可能算出来的结果有差异，这样会导致不同步，引起蝴蝶效应。</p>
+</li>
+</ol>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/my-blog.html" rel="bookmark"
+                           title="Permalink to My Blog">My Blog</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2017-07-19T00:00:00+08:00">
+                Published: 三 19 七月 2017
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/jimmie.html">Jimmie</a>
+        </address>
+<p>In <a href="/category/blog.html">Blog</a>.</p>
+
+</footer><!-- /.post-info -->                <p>偶然间听闻同学说可以在github上写博客，听起来比较有意思,
+于是尝试一番，果然靠谱。虽然工作多年，但是一直没有写文章
+的习惯，将一些所学所想记录此处，既能分享经验，又能方便以
+后回顾，想来也别有一番乐趣。忙碌的工作之余，随便写点什么，
+也是不错的。</p>
+<p>还没弄主题，所以有点简陋，以后慢慢弄。</p>
+<p>附个安装链接: <a href="http://kwdfmzhu.github.io/2016/04/13/pelican_blog/">github blog使用指南</a></p>
+<p>Pelican: <a href="http://docs.getpelican.com/en/stable/quickstart.html">pelican文档</a></p>
+<p>Markdown: <a href="www.appinn.com/markdown/#link">markdown中文文档</a></p>
+                <a class="readmore" href="/my-blog.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
                 </ol><!-- /#posts-list -->
