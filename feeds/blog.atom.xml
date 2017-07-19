@@ -17,7 +17,7 @@
    服务器也可能未成功同步某个客户端的数据给其它客户端，这样服务器要缓存指令，在下一次网络好的时候，一起同步，这样就不会导致不同步。
    帧同步无法使用浮点数来处理逻辑，由于浮点数的误差性，每台机器可能算出来的结果有差异，这样会导致不同步，引起蝴蝶效应。&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary></entry><entry><title>My Blog</title><link href="http://zpjjimmie.github.io/my-blog.html" rel="alternate"></link><updated>2017-07-19T00:00:00+08:00</updated><author><name>Jimmie</name></author><id>tag:zpjjimmie.github.io,2017-07-19:my-blog.html</id><summary type="html">&lt;p&gt;偶然间听闻同学说可以在github上写博客，听起来比较有意思,
+&lt;/ol&gt;</summary></entry><entry><title>My Blog</title><link href="http://zpjjimmie.github.io/readme.html" rel="alternate"></link><updated>2017-07-19T00:00:00+08:00</updated><author><name>Jimmie</name></author><id>tag:zpjjimmie.github.io,2017-07-19:readme.html</id><summary type="html">&lt;p&gt;偶然间听闻同学说可以在github上写博客，听起来比较有意思,
 于是尝试一番，果然靠谱。虽然工作多年，但是一直没有写文章
 的习惯，将一些所学所想记录此处，既能分享经验，又能方便以
 后回顾，想来也别有一番乐趣。忙碌的工作之余，随便写点什么，
