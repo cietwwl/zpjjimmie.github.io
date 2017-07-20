@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Jimmie's blog</title><link href="http://zpjjimmie.github.io/" rel="alternate"></link><link href="http://zpjjimmie.github.io/feeds/all.atom.xml" rel="self"></link><id>http://zpjjimmie.github.io/</id><updated>2017-07-19T00:00:00+08:00</updated><entry><title>状态同步与帧同步</title><link href="http://zpjjimmie.github.io/lockstep.html" rel="alternate"></link><updated>2017-07-19T00:00:00+08:00</updated><author><name>Jimmie</name></author><id>tag:zpjjimmie.github.io,2017-07-19:lockstep.html</id><summary type="html">&lt;p&gt;游戏同步中，大致使用的一般都是状态同步和帧同步两种，以这两种为分支不断优化变种，以适应特定的游戏。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Jimmie's blog</title><link href="http://zpjjimmie.github.io/" rel="alternate"></link><link href="http://zpjjimmie.github.io/feeds/all.atom.xml" rel="self"></link><id>http://zpjjimmie.github.io/</id><updated>2017-07-20T00:00:00+08:00</updated><entry><title>状态同步与帧同步</title><link href="http://zpjjimmie.github.io/lockstep.html" rel="alternate"></link><updated>2017-07-20T00:00:00+08:00</updated><author><name>Jimmie</name></author><id>tag:zpjjimmie.github.io,2017-07-20:lockstep.html</id><summary type="html">&lt;p&gt;游戏同步中，大致使用的一般都是状态同步和帧同步两种，以这两种为分支不断优化变种，以适应特定的游戏。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;状态同步
@@ -17,7 +17,7 @@
    服务器也可能未成功同步某个客户端的数据给其它客户端，这样服务器要缓存指令，在下一次网络好的时候，一起同步，这样就不会导致不同步。
    帧同步无法使用浮点数来处理逻辑，由于浮点数的误差性，每台机器可能算出来的结果有差异，这样会导致不同步，引起蝴蝶效应。&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary></entry><entry><title>My Blog</title><link href="http://zpjjimmie.github.io/readme.html" rel="alternate"></link><updated>2017-07-19T00:00:00+08:00</updated><author><name>Jimmie</name></author><id>tag:zpjjimmie.github.io,2017-07-19:readme.html</id><summary type="html">&lt;p&gt;偶然间听闻同学说可以在github上写博客，听起来比较有意思,
+&lt;/ol&gt;</summary></entry><entry><title>My Blog</title><link href="http://zpjjimmie.github.io/readme.html" rel="alternate"></link><updated>2017-07-20T00:00:00+08:00</updated><author><name>Jimmie</name></author><id>tag:zpjjimmie.github.io,2017-07-20:readme.html</id><summary type="html">&lt;p&gt;偶然间听闻同学说可以在github上写博客，听起来比较有意思,
 于是尝试一番，果然靠谱。虽然工作多年，但是一直没有写文章
 的习惯，将一些所学所想记录此处，既能分享经验，又能方便以
 后回顾，想来也别有一番乐趣。忙碌的工作之余，随便写点什么，
@@ -25,4 +25,4 @@
 &lt;p&gt;还没弄主题，所以有点简陋，以后慢慢弄。&lt;/p&gt;
 &lt;p&gt;附个安装链接: &lt;a href="http://kwdfmzhu.github.io/2016/04/13/pelican_blog/"&gt;github blog使用指南&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Pelican: &lt;a href="http://docs.getpelican.com/en/stable/quickstart.html"&gt;pelican文档&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Markdown: &lt;a href="www.appinn.com/markdown/#link"&gt;markdown中文文档&lt;/a&gt;&lt;/p&gt;</summary></entry><entry><title>当引用指向临时对象</title><link href="http://zpjjimmie.github.io/temporary_objects.html" rel="alternate"></link><updated>2017-07-19T00:00:00+08:00</updated><author><name>Jimmie</name></author><id>tag:zpjjimmie.github.io,2017-07-19:temporary_objects.html</id><summary type="html">&lt;p&gt;延长临时对象的生命周期&lt;/p&gt;</summary></entry></feed>
+&lt;p&gt;Markdown: &lt;a href="www.appinn.com/markdown/#link"&gt;markdown中文文档&lt;/a&gt;&lt;/p&gt;</summary></entry><entry><title>当引用指向临时对象</title><link href="http://zpjjimmie.github.io/temporary_objects.html" rel="alternate"></link><updated>2017-07-20T00:00:00+08:00</updated><author><name>Jimmie</name></author><id>tag:zpjjimmie.github.io,2017-07-20:temporary_objects.html</id><summary type="html">&lt;p&gt;延长临时对象的生命周期&lt;/p&gt;</summary></entry></feed>
