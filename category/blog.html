@@ -1,43 +1,39 @@
 <!DOCTYPE html>
 <html lang="cn">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Jimmie's blog | articles in the "Blog" category</title>
-    <link rel="shortcut icon" type="image/png" href="/favicon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="stylesheet" href="/theme/css/screen.css" type="text/css" />
-    <link rel="stylesheet" href="/theme/css/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="/theme/css/print.css" type="text/css" media="print" />
-    <meta name="generator" content="Pelican" />
-    <meta name="description" content="" />
-    <meta name="author" content="Jimmie" />
+        <meta charset="utf-8" />
+        <title>Jimmie's blog - Blog</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
 
-                <li class="ephemeral selected"><a href="/category/blog.html">Blog</a></li>
-                <li><a href="/">Home</a></li>
-            </ul>
-        </nav>
-        <div class="header_box">
-            <h1><a href="/">Jimmie's blog</a></h1>
-        </div>
-    </header>
-    <div id="wrapper">
-        <div id="content">            <h4 class="date">7月 20, 2017</h4>
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">Jimmie's blog </a></h1>
+                <nav><ul>
+                    <li class="active"><a href="/category/blog.html">Blog</a></li>
+                    <li><a href="/category/czhi-lu.html">C++之路</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
 
-            <article class="post">
-                <h2 class="title">
-                    <a href="/lockstep.html" rel="bookmark" title="Permanent Link to &quot;状态同步与帧同步&quot;">状态同步与帧同步</a>
-                </h2>
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="/lockstep.html">状态同步与帧同步</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2017-07-20T23:00:00+08:00">
+                Published: 四 20 七月 2017
+        </abbr>
 
-                
-                
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/jimmie.html">Jimmie</a>
+                        <a class="url fn" href="/author/sally.html">Sally</a>
+        </address>
+<p>In <a href="/category/blog.html">Blog</a>.</p>
 
-                <p>游戏同步中，大致使用的一般都是状态同步和帧同步两种，以这两种为分支不断优化变种，以适应特定的游戏。</p>
+</footer><!-- /.post-info --><p>游戏同步中，大致使用的一般都是状态同步和帧同步两种，以这两种为分支不断优化变种，以适应特定的游戏。</p>
 <ol>
 <li>
 <p>状态同步
@@ -55,24 +51,31 @@
    服务器也可能未成功同步某个客户端的数据给其它客户端，这样服务器要缓存指令，在下一次网络好的时候，一起同步，这样就不会导致不同步。
    帧同步无法使用浮点数来处理逻辑，由于浮点数的误差性，每台机器可能算出来的结果有差异，这样会导致不同步，引起蝴蝶效应。</p>
 </li>
-</ol>
-                <div class="clear"></div>
+</ol>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
 
-                <div class="info">
-                    <a href="/lockstep.html">posted at 23:00</a>
-                    &nbsp;&middot;&nbsp;<a href="/category/blog.html" rel="tag">Blog</a>
-                </div>
-		<a href="/lockstep.html#disqus_thread">Click to read and post comments</a>
-            </article>
-            <article class="post">
-                <h2 class="title">
-                    <a href="/readme.html" rel="bookmark" title="Permanent Link to &quot;My Blog&quot;">My Blog</a>
-                </h2>
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/readme.html" rel="bookmark"
+                           title="Permalink to My Blog">My Blog</a></h1>
+                </header>
 
-                
-                
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2017-07-20T23:00:00+08:00">
+                Published: 四 20 七月 2017
+        </abbr>
 
-                <p>偶然间听闻同学说可以在github上写博客，听起来比较有意思,
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/jimmie.html">Jimmie</a>
+        </address>
+<p>In <a href="/category/blog.html">Blog</a>.</p>
+
+</footer><!-- /.post-info -->                <p>偶然间听闻同学说可以在github上写博客，听起来比较有意思,
 于是尝试一番，果然靠谱。虽然工作多年，但是一直没有写文章
 的习惯，将一些所学所想记录此处，既能分享经验，又能方便以
 后回顾，想来也别有一番乐趣。忙碌的工作之余，随便写点什么，
@@ -81,24 +84,21 @@
 <p>附个安装链接: <a href="http://kwdfmzhu.github.io/2016/04/13/pelican_blog/">github blog使用指南</a></p>
 <p>Pelican: <a href="http://docs.getpelican.com/en/stable/quickstart.html">pelican文档</a></p>
 <p>Markdown: <a href="www.appinn.com/markdown/#link">markdown中文文档</a></p>
-                <div class="clear"></div>
+                <a class="readmore" href="/readme.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+                </ol><!-- /#posts-list -->
+                </section><!-- /#content -->
+        <section id="extras" class="body">
+        </section><!-- /#extras -->
 
-                <div class="info">
-                    <a href="/readme.html">posted at 23:00</a>
-                    &nbsp;&middot;&nbsp;<a href="/category/blog.html" rel="tag">Blog</a>
-                </div>
-		<a href="/readme.html#disqus_thread">Click to read and post comments</a>
-            </article>
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
 
-            <div class="clear"></div>
-            <footer>
-                <p>
-                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
-                &middot;
-                Powered by <a href="http://getpelican.com">Pelican</a>
-            </footer>
-        </div>
-        <div class="clear"></div>
-    </div>
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
 </body>
 </html>
