@@ -1,5 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Jimmie's blog</title><link href="http://zpjjimmie.github.io/" rel="alternate"></link><link href="http://zpjjimmie.github.io/feeds/all.atom.xml" rel="self"></link><id>http://zpjjimmie.github.io/</id><updated>2017-07-21T00:00:00+08:00</updated><entry><title>当引用指向临时对象</title><link href="http://zpjjimmie.github.io/temporary_objects.html" rel="alternate"></link><updated>2017-07-21T00:00:00+08:00</updated><author><name>Jimmie</name></author><id>tag:zpjjimmie.github.io,2017-07-21:temporary_objects.html</id><summary type="html">&lt;p&gt;延长临时对象的生命周期&lt;/p&gt;</summary></entry><entry><title>状态同步与帧同步</title><link href="http://zpjjimmie.github.io/lockstep.html" rel="alternate"></link><updated>2017-07-20T23:00:00+08:00</updated><author><name>Jimmie</name></author><id>tag:zpjjimmie.github.io,2017-07-20:lockstep.html</id><summary type="html">&lt;p&gt;游戏同步中，大致使用的一般都是状态同步和帧同步两种，以这两种为分支不断优化变种，以适应特定的游戏。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Jimmie's blog</title><link href="http://zpjjimmie.github.io/" rel="alternate"></link><link href="http://zpjjimmie.github.io/feeds/all.atom.xml" rel="self"></link><id>http://zpjjimmie.github.io/</id><updated>2017-07-21T00:00:00+08:00</updated><entry><title>临时对象生命周期</title><link href="http://zpjjimmie.github.io/temporary_objects.html" rel="alternate"></link><updated>2017-07-21T00:00:00+08:00</updated><author><name>Jimmie</name></author><id>tag:zpjjimmie.github.io,2017-07-21:temporary_objects.html</id><summary type="html">&lt;p&gt;
+临时对象的生命周期是指临时对象被创建直到临时对象被销毁的时间，临时对象被销毁应该是完整表达式求值过程中的最后一个步骤，该完整表达式造成临时对象的产生。&lt;&lt;深度探索C++对象模型&gt;&gt;描述了下述两种情况:
+&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;含有表达式执行结果的临时对象，生命周期应该持续到object初始化操作完成为止。
+   例如：
+   &lt;pre&gt;&lt;code&gt;
+   bool flag = false;
+   std::string strleft = "left";
+   std::string strright = "right";
+   std::string obj =  flag ? "ok" 
+                           : strleft + strright;
+   // 此时销毁strleft + strright产生的临时对象
+   &lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果一个临时对象被绑定于一个引用，临时对象生命周期将持续到&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;初始化的引用对象生命周期结束&lt;/li&gt;
+&lt;li&gt;临时对象的生命范畴结束&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;例如:
+&lt;pre&gt;&lt;code&gt;
+A func1()
+{
+    // some code
+}
+A func2()
+{
+    A ret();
+    return ret;
+}   // ret()产生的临时对象func2_temp生命范畴结束
+void temporary()
+{
+    const A&amp;amp; ref1 = func1(); // func1()产生临时对象func1_temp
+    const A&amp;amp; ref2 = func2(); // 无效引用,func2_temp已被销毁
+    ......
+    //somecode
+    ......&lt;/p&gt;
+&lt;p&gt;}   // 引用A生命周期结束,  func1_temp销毁
+&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</summary></entry><entry><title>状态同步与帧同步</title><link href="http://zpjjimmie.github.io/lockstep.html" rel="alternate"></link><updated>2017-07-20T23:00:00+08:00</updated><author><name>Jimmie</name></author><id>tag:zpjjimmie.github.io,2017-07-20:lockstep.html</id><summary type="html">&lt;p&gt;游戏同步中，大致使用的一般都是状态同步和帧同步两种，以这两种为分支不断优化变种，以适应特定的游戏。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;状态同步

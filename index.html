@@ -62,8 +62,8 @@
                         <article>
                             <header>
                                 <h1 class="entry-title">
-                                    <a href="/temporary_objects.html" rel="bookmark" title="Permalink to 当引用指向临时对象">
-                                       当引用指向临时对象
+                                    <a href="/temporary_objects.html" rel="bookmark" title="Permalink to 临时对象生命周期">
+                                       临时对象生命周期
                                     </a>
                                 </h1>
                             </header>
@@ -81,7 +81,43 @@
 
 
     
-</footer><!-- /.post-info -->                                <p>延长临时对象的生命周期</p>
+</footer><!-- /.post-info -->                                <p>
+临时对象的生命周期是指临时对象被创建直到临时对象被销毁的时间，临时对象被销毁应该是完整表达式求值过程中的最后一个步骤，该完整表达式造成临时对象的产生。<<深度探索C++对象模型>>描述了下述两种情况:
+</p>
+
+<ol>
+<li>
+<p>含有表达式执行结果的临时对象，生命周期应该持续到object初始化操作完成为止。
+   例如：
+   <pre><code>
+   bool flag = false;
+   std::string strleft = "left";
+   std::string strright = "right";
+   std::string obj =  flag ? "ok" 
+                           : strleft + strright;
+   // 此时销毁strleft + strright产生的临时对象
+   </code></pre></p>
+</li>
+<li>
+<p>如果一个临时对象被绑定于一个引用，临时对象生命周期将持续到</p>
+<ul>
+<li>初始化的引用对象生命周期结束</li>
+<li>临时对象的生命范畴结束</li>
+</ul>
+<p>例如:
+<pre><code>
+A func1()
+{
+    // some code
+}
+A func2()
+{
+    A ret();
+    return ret;
+}   // ret()产生的临时对象func2_temp生命范畴结束
+void temporary()
+{
+    const A&amp; ref1 = func1 ...</code></pre></p></li></ol>
                                 <p class="readmore">
                                     <a class="btn btn-small btn-info" href="/temporary_objects.html">Read more...</a>
                                 </p>
