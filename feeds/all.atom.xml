@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Jimmie's blog</title><link href="http://zpjjimmie.github.io/" rel="alternate"></link><link href="http://zpjjimmie.github.io/feeds/all.atom.xml" rel="self"></link><id>http://zpjjimmie.github.io/</id><updated>2017-07-21T00:00:00+08:00</updated><entry><title>临时对象生命周期</title><link href="http://zpjjimmie.github.io/temporary_objects.html" rel="alternate"></link><updated>2017-07-21T00:00:00+08:00</updated><author><name>Jimmie</name></author><id>tag:zpjjimmie.github.io,2017-07-21:temporary_objects.html</id><summary type="html">&lt;p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Jimmie's blog</title><link href="http://zpjjimmie.github.io/" rel="alternate"></link><link href="http://zpjjimmie.github.io/feeds/all.atom.xml" rel="self"></link><id>http://zpjjimmie.github.io/</id><updated>2017-07-23T00:00:00+08:00</updated><entry><title>临时对象生命周期</title><link href="http://zpjjimmie.github.io/temporary_objects.html" rel="alternate"></link><updated>2017-07-23T00:00:00+08:00</updated><author><name>Jimmie</name></author><id>tag:zpjjimmie.github.io,2017-07-23:temporary_objects.html</id><summary type="html">&lt;p&gt;
 临时对象的生命周期是指临时对象被创建直到临时对象被销毁的时间，临时对象被销毁应该是完整表达式求值过程中的最后一个步骤，该完整表达式造成临时对象的产生。&lt;&lt;深度探索C++对象模型&gt;&gt;描述了下述两种情况:
 &lt;/p&gt;
 
