@@ -44,6 +44,7 @@
                         <ul class="nav">
                             <li ><a href="/category/blog.html">Blog</a></li>
                             <li ><a href="/category/czhi-lu.html">C++之路</a></li>
+                            <li ><a href="/category/travel.html">Travel</a></li>
                         </ul>
 
                     </div>
@@ -62,6 +63,53 @@
                         <article>
                             <header>
                                 <h1 class="entry-title">
+                                    <a href="/lockstep.html" rel="bookmark" title="Permalink to 状态同步与帧同步">
+                                       状态同步与帧同步
+                                    </a>
+                                </h1>
+                            </header>
+                            <div class="entry-content">
+<footer class="post-info">
+    <address class="vcard author">
+        by <a class="url fn" href="/author/jimmie.html">Jimmie</a>
+    </address>
+
+    in <a href="/category/blog.html">Blog</a>
+
+    on 2017-07-20
+
+
+
+
+    
+</footer><!-- /.post-info -->                                <p>游戏同步中，大致使用的一般都是状态同步和帧同步两种，以这两种为分支不断优化变种，以适应特定的游戏。</p>
+<ol>
+<li>
+<p>状态同步
+   各种逻辑（比如技能释放命中、伤害等）先在服务器计算，然后将运算结果发送给客户端，客户端同步服务器发送来的状态变化。
+   这样的同步方式，会随着单位的增加，流量会急剧增加。可以控制数据，如只发送九屏消息，来控制流量，有时候客户端也会做一些运算
+   来减轻服务器压力。</p>
+</li>
+<li>
+<p>帧同步
+   帧同步是MOBA类和实时战斗类游戏采用的同步方式，帧同步可以使得客户端表现流畅。服务器不再同步状态，而是对于每一帧（turn），
+   客户端将自己的操作发给服务器，服务器在一帧结束后，将所收到的操作广播给各个客户端，客户端根据相应操作指令，分别模
+   拟执行逻辑操作，使用相同的随机种子，执行出完全相同的结果。
+   由于网络延迟，服务器可能在这一帧迟迟未收到客户端发送的消息，而其它客户端消息已经到达，服务器会等待最慢的那个客户端消息，
+   如果超过能容忍的上限时间，可能直接丢弃数据，或者客户端在得知消息未发送成功的时候，缓存这一次的操作，并和下一次操作一起发送。
+   服务器也可能未成功同步某个客户端的数据给其它客户端，这样服务器要缓存指令，在下一次网络好的时候，一起同步，这样就不会导致不同步。
+   帧同步无法使用浮点数来处理逻辑，由于浮点数的误差性，每台机器可能算出来的结果有差异 ...</p></li></ol>
+                                <p class="readmore">
+                                    <a class="btn btn-small btn-info" href="/lockstep.html">Read more...</a>
+                                </p>
+                            </div><!-- /.entry-content -->
+                            <hr/>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <header>
+                                <h1 class="entry-title">
                                     <a href="/temporary_objects.html" rel="bookmark" title="Permalink to 临时对象生命周期">
                                        临时对象生命周期
                                     </a>
@@ -75,7 +123,7 @@
 
     in <a href="/category/czhi-lu.html">C++之路</a>
 
-    on 2017-09-30
+    on 2017-07-18
 
 
 
@@ -129,8 +177,8 @@ void temporary()
                         <article>
                             <header>
                                 <h1 class="entry-title">
-                                    <a href="/lockstep.html" rel="bookmark" title="Permalink to 状态同步与帧同步">
-                                       状态同步与帧同步
+                                    <a href="/Mauritius.html" rel="bookmark" title="Permalink to 毛里求斯之旅">
+                                       毛里求斯之旅
                                     </a>
                                 </h1>
                             </header>
@@ -140,33 +188,34 @@ void temporary()
         by <a class="url fn" href="/author/jimmie.html">Jimmie</a>
     </address>
 
-    in <a href="/category/blog.html">Blog</a>
+    in <a href="/category/travel.html">Travel</a>
 
-    on 2017-07-20
+    on 2017-06-20
 
 
 
 
     
-</footer><!-- /.post-info -->                                <p>游戏同步中，大致使用的一般都是状态同步和帧同步两种，以这两种为分支不断优化变种，以适应特定的游戏。</p>
-<ol>
-<li>
-<p>状态同步
-   各种逻辑（比如技能释放命中、伤害等）先在服务器计算，然后将运算结果发送给客户端，客户端同步服务器发送来的状态变化。
-   这样的同步方式，会随着单位的增加，流量会急剧增加。可以控制数据，如只发送九屏消息，来控制流量，有时候客户端也会做一些运算
-   来减轻服务器压力。</p>
-</li>
-<li>
-<p>帧同步
-   帧同步是MOBA类和实时战斗类游戏采用的同步方式，帧同步可以使得客户端表现流畅。服务器不再同步状态，而是对于每一帧（turn），
-   客户端将自己的操作发给服务器，服务器在一帧结束后，将所收到的操作广播给各个客户端，客户端根据相应操作指令，分别模
-   拟执行逻辑操作，使用相同的随机种子，执行出完全相同的结果。
-   由于网络延迟，服务器可能在这一帧迟迟未收到客户端发送的消息，而其它客户端消息已经到达，服务器会等待最慢的那个客户端消息，
-   如果超过能容忍的上限时间，可能直接丢弃数据，或者客户端在得知消息未发送成功的时候，缓存这一次的操作，并和下一次操作一起发送。
-   服务器也可能未成功同步某个客户端的数据给其它客户端，这样服务器要缓存指令，在下一次网络好的时候，一起同步，这样就不会导致不同步。
-   帧同步无法使用浮点数来处理逻辑，由于浮点数的误差性，每台机器可能算出来的结果有差异 ...</p></li></ol>
+</footer><!-- /.post-info -->                                <h3>一、 准备物品</h3>
+<div class="highlight"><pre>    见excel
+</pre></div>
+
+
+<h3>二、 航班</h3>
+<div class="highlight"><pre>    直航上海2次（周二/周日从毛里求斯出发，周一/周三从上海出发）
+    机票官网：http://www.airmauritius.com/index_zh.htm
+    也可以从飞猪、携程等网站订
+    可以选择转机，价格会便宜点，但是时间太长，直航最快
+</pre></div>
+
+
+<h3>三、 酒店</h3>
+<div class="highlight"><pre>    东南西部遍布各种高档酒店；
+    1. 东部优势：看日出，白沙滩，距离鹿岛较近
+    <span class="nt">&lt;pre&gt;&lt;code&gt;</span> 推荐酒店：四季酒店、One<span class="err">&amp;</span>Only Le Saint Géran（唯一圣杰兰）、康斯丹王子酒店、香格里拉酒店等等<span class="nt">&lt;/code&gt;&lt;/pre&gt;</span>
+    2. 西部优势：看日落，沙滩也还不错，距离海豚湾和鸟公园较近 ...</pre></div>
                                 <p class="readmore">
-                                    <a class="btn btn-small btn-info" href="/lockstep.html">Read more...</a>
+                                    <a class="btn btn-small btn-info" href="/Mauritius.html">Read more...</a>
                                 </p>
                             </div><!-- /.entry-content -->
                             <hr/>
