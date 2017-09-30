@@ -67,16 +67,12 @@ void temporary()
 
 
 &lt;h3&gt;二、 航班&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;    直航上海2次（周二/周日从毛里求斯出发，周一/周三从上海出发）
-
-    机票官网：http://www.airmauritius.com/index_zh.htm
-
-    也可以从飞猪、携程等网站订
-
-    可以选择转机，价格会便宜点，但是时间太长，直航最快
-&lt;/pre&gt;&lt;/div&gt;
-
-
+&lt;blockquote&gt;
+&lt;p&gt;直航上海2次（周二/周日从毛里求斯出发，周一/周三从上海出发）&lt;/p&gt;
+&lt;p&gt;机票官网：http://www.airmauritius.com/index_zh.htm&lt;/p&gt;
+&lt;p&gt;也可以从飞猪、携程等网站订&lt;/p&gt;
+&lt;p&gt;可以选择转机，价格会便宜点，但是时间太长，直航最快&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3&gt;三、 酒店&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;    东南西部遍布各种高档酒店；
 
