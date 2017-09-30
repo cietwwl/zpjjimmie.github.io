@@ -3,19 +3,41 @@
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th&gt;物品&lt;/th&gt;
+&lt;th&gt;水果&lt;/th&gt;
+&lt;th&gt;价格&lt;/th&gt;
 &lt;th&gt;数量&lt;/th&gt;
-&lt;th&gt;备注&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;护照&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;香蕉&lt;/td&gt;
+&lt;td&gt;$1&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;苹果&lt;/td&gt;
+&lt;td&gt;$1&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;草莓&lt;/td&gt;
+&lt;td&gt;$1&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;p&gt;作者：Gaolex
+链接：http://www.jianshu.com/p/abaff828100d
+來源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。&lt;/p&gt;
 &lt;h3&gt;二、 航班&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;    直航上海2次（周二/周日从毛里求斯出发，周一/周三从上海出发）
 
