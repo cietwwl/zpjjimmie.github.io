@@ -62,10 +62,22 @@ void temporary()
 &lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;</summary></entry><entry><title>毛里求斯之旅</title><link href="http://zpjjimmie.github.io/Mauritius.html" rel="alternate"></link><updated>2017-06-20T23:00:00+08:00</updated><author><name>Jimmie</name></author><id>tag:zpjjimmie.github.io,2017-06-20:Mauritius.html</id><summary type="html">&lt;h3&gt;一、 准备物品&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;    见excel
-&lt;/pre&gt;&lt;/div&gt;
-
-
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;物品&lt;/th&gt;
+&lt;th&gt;数量&lt;/th&gt;
+&lt;th&gt;备注&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;护照&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;h3&gt;二、 航班&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;    直航上海2次（周二/周日从毛里求斯出发，周一/周三从上海出发）
 
@@ -96,9 +108,13 @@ void temporary()
 
 
 &lt;h3&gt;四、 推荐景点&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;东部： 鹿岛，这个最好选一日游，我自己包车去的，船           票自己买很贵，一日游跟团会便宜点。虽说到了那里这个岛要去看看，但其实不怎么样，岛上商业气息浓重，各种推销项目，沙滩还不如酒店的好。要去强烈推荐买一日游。
+
+南部： 大浪湾、南部四驱车、天涯海角、七色土、圣水湖、自然桥、鳄鱼公园、蓝湾
+&lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;blockquote&gt;
-&lt;p&gt;东部： 鹿岛，这个最好选一日游，我自己包车去的，船           票自己买很贵，一日游跟团会便宜点。虽说到了那里这个岛要去看看，但其实不怎么样，岛上商业气息浓重，各种推销项目，沙滩还不如酒店的好。要去强烈推荐买一日游。&lt;/p&gt;
-&lt;p&gt;南部： 大浪湾、南部四驱车、天涯海角、七色土、圣水湖、自然桥、鳄鱼公园、蓝湾&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;南部四驱车&lt;/strong&gt;必玩项目，非常好玩。南部可以选择一日游，也可以选择包车，推荐包车，四驱车票不好订，可以国内就订好。&lt;/p&gt;
 &lt;p&gt;北部： 红顶教堂、大湾、植物园、路易港、炮台山，推荐包车，比较自由&lt;/p&gt;
 &lt;p&gt;西部： 追海豚、鸟公园，必去，推荐一日游，因为海豚要早起，也要出海&lt;/p&gt;
