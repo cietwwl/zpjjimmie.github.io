@@ -9,9 +9,7 @@
 &lt;th&gt;&lt;/th&gt;
 &lt;th&gt;&lt;/th&gt;
 &lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
 &lt;th align="left"&gt;物品&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
 &lt;th&gt;&lt;/th&gt;
 &lt;th&gt;&lt;/th&gt;
 &lt;th&gt;&lt;/th&gt;
@@ -27,9 +25,7 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td align="left"&gt;护照&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -43,9 +39,7 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td align="left"&gt;往返机票&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -59,9 +53,7 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td align="left"&gt;酒店&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -75,9 +67,7 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td align="left"&gt;身份证&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -91,9 +81,7 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td align="left"&gt;银联卡/VISA信用卡/若干美元现金&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -107,9 +95,7 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td align="left"&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -119,7 +105,6 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align="left"&gt;出行预订&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -130,7 +115,6 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td align="left"&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -139,9 +123,7 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td align="left"&gt;包车预订&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -155,9 +137,7 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td align="left"&gt;一日游预订&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -171,9 +151,7 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td align="left"&gt;自由行活动预订&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -187,9 +165,7 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td align="left"&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -203,9 +179,7 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;牙刷/牙膏&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td align="left"&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -219,9 +193,7 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;洗面奶/洗发用品&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td align="left"&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -235,9 +207,7 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;牙刷/牙膏&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td align="left"&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -251,9 +221,7 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;防晒霜/晒后修复&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td align="left"&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -267,9 +235,7 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;剃须刀&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td align="left"&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -283,9 +249,7 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td align="left"&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -299,9 +263,7 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;手机&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td align="left"&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -315,9 +277,7 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;充电宝/充电器&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td align="left"&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -331,15 +291,13 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;毛里求斯电话卡&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td align="left"&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;可先网上购买一张，当地可充值&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td align="left"&gt;&lt;/td&gt;
+&lt;td align="left"&gt;可先网上购买一张，当地可充值&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align="left"&gt;电子设备&lt;/td&gt;
@@ -347,9 +305,7 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;可在毛里求斯使用的插头和电压适配器&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td align="left"&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -363,9 +319,7 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;自拍杆&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td align="left"&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -379,9 +333,7 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td align="left"&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -395,9 +347,7 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;充电宝/充电器&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td align="left"&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
