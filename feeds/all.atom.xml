@@ -374,11 +374,11 @@
 &lt;p&gt;网上攻略:[蚂蜂窝攻略]http://www.mafengwo.cn/baike/11047_794.html&lt;/p&gt;
 &lt;p&gt;&lt;pre&gt;
 普吉岛紧急电话：
-        1.急救中心：1691
-        2.医疗救助：1669
-        3.火警：199
-        4.报警/紧急求助：191
-        5.旅游警察：1155，24小时，会英语
+1.急救中心：1691
+2.医疗救助：1669
+3.火警：199
+4.报警/紧急求助：191
+5.旅游警察：1155，24小时，会英语
 &lt;/pre&gt;&lt;/p&gt;
 &lt;/blockquote&gt;</summary></entry><entry><title>状态同步与帧同步</title><link href="http://zpjjimmie.github.io/lockstep.html" rel="alternate"></link><updated>2017-07-20T23:00:00+08:00</updated><author><name>Jimmie</name></author><id>tag:zpjjimmie.github.io,2017-07-20:lockstep.html</id><summary type="html">&lt;p&gt;游戏同步中，大致使用的一般都是状态同步和帧同步两种，以这两种为分支不断优化变种，以适应特定的游戏。&lt;/p&gt;
 &lt;ol&gt;
